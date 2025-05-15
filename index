@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roundz - Support</title>
+    <style>
+        :root {
+            --primary-color: #007AFF;
+            --secondary-color: #5856D6;
+            --text-color: #333;
+            --light-gray: #f5f5f5;
+            --border-color: #e0e0e0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background-color: var(--secondary-color);
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .support-section {
+            margin: 40px 0;
+        }
+
+        .support-section h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        .faq-item {
+            background-color: var(--light-gray);
+            border-radius: 8px;
+            margin-bottom: 15px;
+            padding: 20px;
+        }
+
+        .faq-question {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: var(--secondary-color);
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: var(--light-gray);
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Roundz</div>
+        <p>Your Ultimate Boxing Timer App</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section class="support-section">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">How do I set up a new training session?</div>
+                <p>To set up a new training session, simply open the app and tap the "+" button. You can then customize your round length, number of rounds, break duration, and other settings to match your training needs.</p>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Can I use the app in the background?</div>
+                <p>Yes, Roundz continues to run in the background. However, please note that iOS may limit background execution time. For the best experience, we recommend keeping the app in the foreground during your training session.</p>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I record my training sessions?</div>
+                <p>To record your training sessions, enable the recording feature in the app settings. Make sure to grant camera and microphone permissions when prompted. Your recordings will be saved locally on your device.</p>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I adjust the sound volume?</div>
+                <p>You can adjust the sound volume in the app settings. The app will use your device's current volume level, so make sure your device volume is set to an appropriate level.</p>
+            </div>
+        </section>
+
+        <section class="support-section">
+            <h2>Troubleshooting</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">Timer stops in background</div>
+                <p>If the timer stops when the app is in the background, try these solutions:</p>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>Make sure you have the latest version of the app installed</li>
+                    <li>Check that your device's battery optimization is not restricting the app</li>
+                    <li>Keep the app in the foreground for the most reliable experience</li>
+                </ul>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Recording issues</div>
+                <p>If you're experiencing issues with recording:</p>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>Ensure you've granted camera and microphone permissions</li>
+                    <li>Check that you have sufficient storage space on your device</li>
+                    <li>Try closing and reopening the app</li>
+                </ul>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Sound not playing</div>
+                <p>If you're not hearing the timer sounds:</p>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>Check your device's volume settings</li>
+                    <li>Ensure your device is not in silent mode</li>
+                    <li>Verify that the sound is enabled in the app settings</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="support-section">
+            <h2>Contact Support</h2>
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Roundz. All rights reserved.</p>
+    </footer>
+</body>
+</html>
