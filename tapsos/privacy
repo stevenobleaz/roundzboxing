@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TapSOS Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .last-updated {
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>TapSOS Privacy Policy</h1>
+    <p class="last-updated">Last Updated: June 6, 2025</p>
+
+    <h2>1. Introduction</h2>
+    <p>TapSOS ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our emergency notification application.</p>
+
+    <h2>2. Information We Collect</h2>
+    <h3>2.1 Personal Information</h3>
+    <ul>
+        <li>Contact information (name, phone number, email) of emergency contacts you add</li>
+        <li>Your device's location (only when SOS is activated)</li>
+        <li>Your name (if provided)</li>
+    </ul>
+
+    <h3>2.2 Device Information</h3>
+    <ul>
+        <li>Device type and operating system</li>
+        <li>App usage statistics</li>
+        <li>Camera access (for flashlight control)</li>
+        <li>Microphone access (for audio playback)</li>
+    </ul>
+
+    <h2>3. How We Use Your Information</h2>
+    <ul>
+        <li>To send emergency notifications to your designated contacts</li>
+        <li>To share your location during emergencies</li>
+        <li>To control the device's flashlight for emergency signaling</li>
+        <li>To play alarm sounds at maximum volume</li>
+    </ul>
+
+    <h2>4. Information Sharing</h2>
+    <p>We only share your information in the following circumstances:</p>
+    <ul>
+        <li>With your emergency contacts when you activate the SOS feature</li>
+        <li>When required by law or to protect our rights</li>
+    </ul>
+
+    <h2>5. Data Storage and Security</h2>
+    <ul>
+        <li>Emergency contact information is stored locally on your device</li>
+        <li>Location data is only transmitted during active emergencies</li>
+        <li>We implement appropriate security measures to protect your information</li>
+    </ul>
+
+    <h2>6. Your Rights</h2>
+    <p>You have the right to:</p>
+    <ul>
+        <li>Access your personal information</li>
+        <li>Modify or delete your emergency contacts</li>
+        <li>Disable location sharing</li>
+        <li>Uninstall the app at any time</li>
+    </ul>
+
+    <h2>7. Emergency Contact Rights</h2>
+    <p>Your emergency contacts can:</p>
+    <ul>
+        <li>Opt out of receiving messages by replying "N" to any message</li>
+        <li>Request removal as an emergency contact</li>
+    </ul>
+
+    <h2>8. Children's Privacy</h2>
+    <p>Our app is not intended for use by children under 13. We do not knowingly collect information from children under 13.</p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+
+    <h2>10. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+    <p>Email: info@roundzboxing.com</p>
+</body>
+</html>
