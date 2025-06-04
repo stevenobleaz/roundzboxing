@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TapSOS Terms of Service</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .last-updated {
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>TapSOS Terms of Service</h1>
+    <p class="last-updated">Last Updated: June 4, 2025</p>
+
+    <h2>1. Acceptance of Terms</h2>
+    <p>By downloading, installing, or using TapSOS, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the application.</p>
+
+    <h2>2. Description of Service</h2>
+    <p>TapSOS is an emergency notification system that allows users to:</p>
+    <ul>
+        <li>Send emergency alerts to designated contacts</li>
+        <li>Share location information during emergencies</li>
+        <li>Activate visual and audio alerts</li>
+    </ul>
+
+    <h2>3. User Responsibilities</h2>
+    <p>As a user of TapSOS, you agree to:</p>
+    <ul>
+        <li>Use the app only for legitimate emergency situations</li>
+        <li>Obtain consent from emergency contacts before adding them</li>
+        <li>Maintain accurate and up-to-date contact information</li>
+        <li>Not misuse or abuse the emergency notification system</li>
+        <li>Comply with all applicable laws and regulations</li>
+    </ul>
+
+    <h2>4. Emergency Contact Responsibilities</h2>
+    <p>Emergency contacts must:</p>
+    <ul>
+        <li>Provide explicit consent to receive emergency notifications</li>
+        <li>Maintain accurate contact information</li>
+        <li>Respond appropriately to emergency notifications</li>
+    </ul>
+
+    <h2>5. Limitations of Service</h2>
+    <p>TapSOS:</p>
+    <ul>
+        <li>Is not a replacement for emergency services (911)</li>
+        <li>Does not guarantee immediate response from emergency contacts</li>
+        <li>May be affected by network connectivity issues</li>
+        <li>Relies on accurate device location services</li>
+    </ul>
+
+    <h2>6. Privacy and Data Protection</h2>
+    <p>Our Privacy Policy, available at https://roundzboxing.com/tapsos/privacy, explains how we collect, use, and protect your information.</p>
+
+    <h2>7. Intellectual Property</h2>
+    <p>All rights, title, and interest in and to TapSOS, including all intellectual property rights, are and will remain the exclusive property of TapSOS and its licensors.</p>
+
+    <h2>8. Disclaimer of Warranties</h2>
+    <p>TapSOS is provided "as is" without any warranties, express or implied. We do not guarantee that the service will be uninterrupted or error-free.</p>
+
+    <h2>9. Limitation of Liability</h2>
+    <p>TapSOS shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the service.</p>
+
+    <h2>10. Modifications to Terms</h2>
+    <p>We reserve the right to modify these terms at any time. We will notify users of any material changes by posting the new Terms of Service on this page.</p>
+
+    <h2>11. Termination</h2>
+    <p>We may terminate or suspend your access to TapSOS immediately, without prior notice, for any reason, including if you breach these Terms.</p>
+
+    <h2>12. Governing Law</h2>
+    <p>These terms shall be governed by and construed in accordance with the laws of California, United States.</p>
+
+    <h2>13. Contact Information</h2>
+    <p>For questions about these Terms of Service, please contact us at:</p>
+    <p>Email: info@roundzboxing.com</p>
+</body>
+</html>
