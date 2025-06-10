@@ -1,0 +1,22 @@
+TapSOS Emergency Notification System - Consent Documentation
+<br><br>
+1. Purpose:<br>
+- TapSOS is an emergency notification system that allows users to send alerts to their emergency contacts<br>
+- Messages are only sent when the user explicitly triggers the SOS button<br>
+- All messages are opt-in, as users must manually add their emergency contacts<br>
+<br><br>
+2. Consent Process:<br>
+- Users must explicitly add each emergency contact through the app's interface<br>
+- Contacts are only added after user confirmation<br>
+- Users can remove contacts at any time<br>
+- Each contact must be manually added and verified by the user<br>
+<br><br>
+3. Message Content:<br>
+- Emergency alerts only<br>
+- Location information (if enabled)<br>
+- Timestamp of the emergency<br>
+- No marketing or promotional content<br>
+<br><br>
+4. Opt-out Process:<br>
+- Users can remove contacts at any time through the app<br>
+- Contacts can request removal by contacting the user<br>
