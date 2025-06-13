@@ -1,0 +1,113 @@
+# tapSOS - Emergency Alert App
+
+## Overview
+tapSOS is an iOS app designed to provide quick and reliable emergency alerts to your trusted contacts. With a simple tap, you can send your location and alert your emergency contacts when you need help.
+
+## Features
+
+### Quick SOS Alert
+- One-tap emergency alert system
+- Sends your current location to emergency contacts
+- Includes customizable emergency message
+- Works even when the app is in the background
+
+### Contact Management
+- Add multiple emergency contacts
+- Support for phone numbers and email addresses
+- Contact consent verification system
+- Easy contact management interface
+
+### Location Sharing
+- Real-time location sharing with emergency contacts
+- Precise GPS coordinates
+- Google Maps link for easy navigation
+- Option to enable/disable location sharing
+
+### Alarm & Lights
+- Loud alarm sound to attract attention
+- Screen flash for visual alert
+- Customizable alarm settings
+- Automatic volume control
+
+## Required Permissions
+
+The app requires the following permissions to function properly:
+
+1. **Location Services**
+   - Required for sharing your location with emergency contacts
+   - Used to provide accurate GPS coordinates during emergencies
+
+2. **Contacts**
+   - Required to add and manage emergency contacts
+   - Used to send emergency alerts to your trusted contacts
+
+3. **Camera & Microphone**
+   - Required for video recording feature
+   - Used to capture and share video evidence if needed
+
+## How to Use
+
+1. **Initial Setup**
+   - Grant necessary permissions when prompted
+   - Add your emergency contacts
+   - Customize your emergency message
+
+2. **Adding Emergency Contacts**
+   - Go to Settings
+   - Tap "Add Emergency Contact"
+   - Select a contact from your phone book or enter details manually
+   - Send consent message to the contact
+
+3. **Sending an Emergency Alert**
+   - Open the app
+   - Tap the SOS button
+   - Your emergency contacts will receive:
+     - Your current location
+     - A Google Maps link
+     - Your emergency message
+
+## Troubleshooting
+
+### Common Issues
+
+1. **Location Not Sharing**
+   - Ensure Location Services is enabled
+   - Check if "Send Location to Contacts" is enabled in Settings
+   - Verify that you have granted location permissions
+
+2. **Contacts Not Receiving Alerts**
+   - Verify that the contact has given consent
+   - Check if the contact's phone number/email is correct
+   - Ensure the contact has not blocked your number/email
+
+3. **Alarm Not Working**
+   - Check if "Enable Alarm & Lights" is enabled in Settings
+   - Ensure your device's volume is not muted
+   - Verify that your device's Do Not Disturb is not active
+
+### Privacy & Security
+
+- Your location is only shared when you tap the SOS button
+- Emergency contacts must give consent before receiving alerts
+- You can disable location sharing at any time
+- All data is stored locally on your device
+
+## Support
+
+For additional support or to report issues:
+
+- Email: [Your Support Email]
+- GitHub Issues: [Your GitHub Repository Issues Page]
+- App Store: [Your App Store Link]
+
+## Version Information
+
+- Current Version: 1.0
+- iOS Requirements: iOS 15.0 or later
+- Device Requirements: iPhone or iPad with GPS capabilities
+
+---
+
+*Note: This app is designed for emergency situations. Always call emergency services (911) for life-threatening emergencies.*
+
+*Last Updated: [Current Date]*
