@@ -1,113 +1,267 @@
-# tapSOS - Emergency Alert App
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tapSOS - Emergency Alert App Support</title>
+    <style>
+        :root {
+            --primary-color: #ff3b30;
+            --secondary-color: #007aff;
+            --text-color: #333;
+            --background-color: #f5f5f7;
+            --card-background: #ffffff;
+        }
 
-## Overview
-tapSOS is an iOS app designed to provide quick and reliable emergency alerts to your trusted contacts. With a simple tap, you can send your location and alert your emergency contacts when you need help.
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-## Features
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
 
-### Quick SOS Alert
-- One-tap emergency alert system
-- Sends your current location to emergency contacts
-- Includes customizable emergency message
-- Works even when the app is in the background
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-### Contact Management
-- Add multiple emergency contacts
-- Support for phone numbers and email addresses
-- Contact consent verification system
-- Easy contact management interface
+        header {
+            background-color: var(--card-background);
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
 
-### Location Sharing
-- Real-time location sharing with emergency contacts
-- Precise GPS coordinates
-- Google Maps link for easy navigation
-- Option to enable/disable location sharing
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
 
-### Alarm & Lights
-- Loud alarm sound to attract attention
-- Screen flash for visual alert
-- Customizable alarm settings
-- Automatic volume control
+        .subtitle {
+            color: var(--secondary-color);
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
 
-## Required Permissions
+        .section {
+            background-color: var(--card-background);
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
 
-The app requires the following permissions to function properly:
+        h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
 
-1. **Location Services**
-   - Required for sharing your location with emergency contacts
-   - Used to provide accurate GPS coordinates during emergencies
+        h3 {
+            color: var(--secondary-color);
+            margin: 20px 0 10px;
+            font-size: 1.4em;
+        }
 
-2. **Contacts**
-   - Required to add and manage emergency contacts
-   - Used to send emergency alerts to your trusted contacts
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
 
-3. **Camera & Microphone**
-   - Required for video recording feature
-   - Used to capture and share video evidence if needed
+        li {
+            margin-bottom: 10px;
+        }
 
-## How to Use
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
 
-1. **Initial Setup**
-   - Grant necessary permissions when prompted
-   - Add your emergency contacts
-   - Customize your emergency message
+        .feature-card {
+            background-color: var(--card-background);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
 
-2. **Adding Emergency Contacts**
-   - Go to Settings
-   - Tap "Add Emergency Contact"
-   - Select a contact from your phone book or enter details manually
-   - Send consent message to the contact
+        .warning {
+            background-color: #fff3f3;
+            border-left: 4px solid var(--primary-color);
+            padding: 15px;
+            margin: 20px 0;
+        }
 
-3. **Sending an Emergency Alert**
-   - Open the app
-   - Tap the SOS button
-   - Your emergency contacts will receive:
-     - Your current location
-     - A Google Maps link
-     - Your emergency message
+        .contact-info {
+            background-color: var(--card-background);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
 
-## Troubleshooting
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>tapSOS Support</h1>
+            <p class="subtitle">Emergency Alert App - Help & Documentation</p>
+        </div>
+    </header>
 
-### Common Issues
+    <div class="container">
+        <section class="section">
+            <h2>Overview</h2>
+            <p>tapSOS is an iOS app designed to provide quick and reliable emergency alerts to your trusted contacts. With a simple tap, you can send your location and alert your emergency contacts when you need help.</p>
+        </section>
 
-1. **Location Not Sharing**
-   - Ensure Location Services is enabled
-   - Check if "Send Location to Contacts" is enabled in Settings
-   - Verify that you have granted location permissions
+        <section class="section">
+            <h2>Key Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Quick SOS Alert</h3>
+                    <ul>
+                        <li>One-tap emergency alert system</li>
+                        <li>Sends your current location</li>
+                        <li>Customizable emergency message</li>
+                        <li>Works in background</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <h3>Contact Management</h3>
+                    <ul>
+                        <li>Multiple emergency contacts</li>
+                        <li>Phone & email support</li>
+                        <li>Consent verification</li>
+                        <li>Easy management interface</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <h3>Location Sharing</h3>
+                    <ul>
+                        <li>Real-time location updates</li>
+                        <li>GPS coordinates</li>
+                        <li>Google Maps integration</li>
+                        <li>Privacy controls</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-2. **Contacts Not Receiving Alerts**
-   - Verify that the contact has given consent
-   - Check if the contact's phone number/email is correct
-   - Ensure the contact has not blocked your number/email
+        <section class="section">
+            <h2>Getting Started</h2>
+            <h3>Initial Setup</h3>
+            <ol>
+                <li>Download and install tapSOS from the App Store</li>
+                <li>Grant necessary permissions when prompted</li>
+                <li>Add your emergency contacts</li>
+                <li>Customize your emergency message</li>
+            </ol>
 
-3. **Alarm Not Working**
-   - Check if "Enable Alarm & Lights" is enabled in Settings
-   - Ensure your device's volume is not muted
-   - Verify that your device's Do Not Disturb is not active
+            <h3>Adding Emergency Contacts</h3>
+            <ol>
+                <li>Open the Settings tab</li>
+                <li>Tap "Add Emergency Contact"</li>
+                <li>Select a contact or enter details manually</li>
+                <li>Send consent message to the contact</li>
+            </ol>
 
-### Privacy & Security
+            <h3>Sending an Emergency Alert</h3>
+            <ol>
+                <li>Open the app</li>
+                <li>Tap the SOS button</li>
+                <li>Your contacts will receive:
+                    <ul>
+                        <li>Your current location</li>
+                        <li>Google Maps link</li>
+                        <li>Your emergency message</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
 
-- Your location is only shared when you tap the SOS button
-- Emergency contacts must give consent before receiving alerts
-- You can disable location sharing at any time
-- All data is stored locally on your device
+        <section class="section">
+            <h2>Troubleshooting</h2>
+            <h3>Common Issues</h3>
+            
+            <h4>Location Not Sharing</h4>
+            <ul>
+                <li>Ensure Location Services is enabled</li>
+                <li>Check if "Send Location to Contacts" is enabled in Settings</li>
+                <li>Verify location permissions are granted</li>
+            </ul>
 
-## Support
+            <h4>Contacts Not Receiving Alerts</h4>
+            <ul>
+                <li>Verify contact consent status</li>
+                <li>Check contact information accuracy</li>
+                <li>Ensure contact hasn't blocked your number/email</li>
+            </ul>
 
-For additional support or to report issues:
+            <h4>Alarm Not Working</h4>
+            <ul>
+                <li>Check if "Enable Alarm & Lights" is enabled</li>
+                <li>Ensure device volume is not muted</li>
+                <li>Verify Do Not Disturb is not active</li>
+            </ul>
+        </section>
 
-- Email: [Your Support Email]
-- GitHub Issues: [Your GitHub Repository Issues Page]
-- App Store: [Your App Store Link]
+        <section class="section">
+            <h2>Privacy & Security</h2>
+            <ul>
+                <li>Location is only shared when you tap the SOS button</li>
+                <li>Emergency contacts must give consent</li>
+                <li>Location sharing can be disabled anytime</li>
+                <li>All data is stored locally on your device</li>
+            </ul>
+        </section>
 
-## Version Information
+        <section class="section">
+            <h2>Support</h2>
+            <div class="contact-info">
+                <p>For additional support or to report issues:</p>
+                <ul>
+                    <li>Email: [Your Support Email]</li>
+                    <li>GitHub Issues: [Your GitHub Repository Issues Page]</li>
+                    <li>App Store: [Your App Store Link]</li>
+                </ul>
+            </div>
+        </section>
 
-- Current Version: 1.0
-- iOS Requirements: iOS 15.0 or later
-- Device Requirements: iPhone or iPad with GPS capabilities
+        <section class="section">
+            <h2>Version Information</h2>
+            <ul>
+                <li>Current Version: 1.0</li>
+                <li>iOS Requirements: iOS 15.0 or later</li>
+                <li>Device Requirements: iPhone or iPad with GPS capabilities</li>
+            </ul>
+        </section>
 
----
-
-*Note: This app is designed for emergency situations. Always call emergency services (911) for life-threatening emergencies.*
-
-*Last Updated: [Current Date]*
+        <div class="warning">
+            <strong>Important Note:</strong> This app is designed for emergency situations. Always call emergency services (911) for life-threatening emergencies.
+        </div>
+    </div>
+</body>
+</html>
